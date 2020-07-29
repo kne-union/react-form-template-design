@@ -111,5 +111,13 @@
         top: -10px;
         padding: 0 4px;
     }
+
+    .form_render .react-form__field {
+        margin-bottom: 0;
+    }
+
+    .react-form__field{
+        width: 100%;
+    }
     
 }
