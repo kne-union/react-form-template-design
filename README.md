@@ -1,5 +1,4 @@
 # react-form-templete-design
-用于获取数据的react组件
 
 ```shell script
 yarn add react-form-templete-design
