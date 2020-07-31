@@ -1,6 +1,6 @@
 {
   "name": "react-form-templete-design",
-  "version": "0.0.2",
+  "version": "0.0.3",
   "description": "",
   "main": "dist/index.js",
   "module": "dist/index.es.js",
@@ -21,6 +21,7 @@
   "license": "ISC",
   "dependencies": {
     "@kne/react-form-antd": "^0.1.32",
+    "@material-ui/core": "^4.11.0",
     "antd": "^4.4.2",
     "react": "^16.13.1",
     "react-dom": "^16.13.1",
