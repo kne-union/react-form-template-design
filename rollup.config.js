@@ -40,45 +40,45 @@ export default [
             } ),
         ]
     },
-    {
-        input: 'lib/index.js',
-        output: [
-            {
-                file: pkg.umd,
-                name: "ReactFormTempleteDesign",
-                format: 'umd',
-                sourcemap: true
-            },
-            {
-                file: pkg['umd:min'],
-                name: "ReactFormTempleteDesign",
-                format: 'umd',
-                sourcemap: true,
-                plugins: [terser()]
-            }
-        ],
-        plugins: [
-            external(),
-            babel( {
-                exclude: 'node_modules/**',
-                runtimeHelpers: true
-            } ),
-            cssBundle( {
-                include: ['**/*.scss'],
-                output: path.resolve( 'dist/style.scss' )
-            } ),
-            resolve({
-            }),
-            commonjs({
-                include: /node_modules/,
-                namedExports: {
-                    'react-is': Object.keys(ReactIs),
-                    'react': Object.keys(React),
-                    'react-dom': Object.keys(ReactDOM),
-                //     'styled-components': [ 'styled', 'css', 'ThemeProvider' ]
-                }
-            } ),
-            json()
-        ]
-    }
+    // {
+    //     input: 'lib/index.js',
+    //     output: [
+    //         {
+    //             file: pkg.umd,
+    //             name: "ReactFormTempleteDesign",
+    //             format: 'umd',
+    //             sourcemap: true
+    //         },
+    //         {
+    //             file: pkg['umd:min'],
+    //             name: "ReactFormTempleteDesign",
+    //             format: 'umd',
+    //             sourcemap: true,
+    //             plugins: [terser()]
+    //         }
+    //     ],
+    //     plugins: [
+    //         external(),
+    //         babel( {
+    //             exclude: 'node_modules/**',
+    //             runtimeHelpers: true
+    //         } ),
+    //         cssBundle( {
+    //             include: ['**/*.scss'],
+    //             output: path.resolve( 'dist/style.scss' )
+    //         } ),
+    //         resolve({
+    //         }),
+    //         commonjs({
+    //             include: /node_modules/,
+    //             namedExports: {
+    //                 'react-is': Object.keys(ReactIs),
+    //                 'react': Object.keys(React),
+    //                 'react-dom': Object.keys(ReactDOM),
+    //             //     'styled-components': [ 'styled', 'css', 'ThemeProvider' ]
+    //             }
+    //         } ),
+    //         json()
+    //     ]
+    // }
 ]

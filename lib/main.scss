@@ -1,3 +1,5 @@
+@import '~react-grid-layout/css/styles.css';
+@import '~react-resizable/css/styles.css';
 .react_form_templete_design {
     .content {
         display: flex;
@@ -22,6 +24,8 @@
         position: relative;
         background-color: rgba($color: #a9a9a9, $alpha: 0.7);
         padding: 12px;
+        height: 100vh;
+        overflow-y: auto;
     }
     
     .drag_warp {
@@ -102,6 +106,7 @@
         border: 1px solid #648def;
         margin: 20px 0;
         position: relative;
+        min-height: 40px;
     }
     
     .example_form_label {
