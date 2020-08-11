@@ -9847,10 +9847,10 @@ react-error-overlay@^6.0.7:
   resolved "https://registry.npm.taobao.org/react-error-overlay/download/react-error-overlay-6.0.7.tgz?cache=0&sync_timestamp=1596080571744&other_urls=https%3A%2F%2Fregistry.npm.taobao.org%2Freact-error-overlay%2Fdownload%2Freact-error-overlay-6.0.7.tgz#1dcfb459ab671d53f660a991513cb2f0a0553108"
   integrity sha1-Hc+0WatnHVP2YKmRUTyy8KBVMQg=
 
-react-form-templete-design@^0.0.9:
-  version "0.0.9"
-  resolved "https://registry.npmjs.org/react-form-templete-design/-/react-form-templete-design-0.0.9.tgz#affe013ba1cdfdc24a22bf08f6d39db5da6701f7"
-  integrity sha512-91h583wgt91HUN61SQf7E501+9tp3yeAUU1EnHIT0tzGai9I4q7AkcQUpKYLdDUE9BQHSKIft0PlRpG5ak4t7Q==
+react-form-templete-design@^0.0.10:
+  version "0.0.10"
+  resolved "https://registry.npm.taobao.org/react-form-templete-design/download/react-form-templete-design-0.0.10.tgz#58fff82d97fcb97cec5e25b9340984de8a52b77b"
+  integrity sha1-WP/4LZf8uXzsXiW5NAmE3opSt3s=
   dependencies:
     "@kne/react-form-antd" "^0.1.32"
     "@material-ui/core" "^4.11.0"

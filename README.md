@@ -11,13 +11,13 @@ import FormDesign,{FormRender} from 'react-form-templete-design'
 
 
 //编辑器  获取编辑完成json
-<FormDesign onOver={handleFunc} />
+<FormDesign handleSuccessEdit={handleFunc} />
 
 
 <FormRender
     submitText="确定"
     defaultData={{form_item:"render"}}
-    data={"json"}
+    data={{}}
 />
 
 
