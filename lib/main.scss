@@ -1,5 +1,6 @@
 @import '~react-grid-layout/css/styles.css';
 @import '~react-resizable/css/styles.css';
+@import '~@kne/react-form-antd/dist/style.scss';
 .react_form_templete_design {
     .content {
         display: flex;
@@ -118,6 +119,9 @@
     }
 
     .form_render .react-form__field {
+        margin-bottom: 0;
+    }
+    .react-form__field {
         margin-bottom: 0;
     }
 
