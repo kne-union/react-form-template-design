@@ -1471,6 +1471,13 @@
     react-is "^16.8.0"
     react-transition-group "^4.4.0"
 
+"@material-ui/icons@^4.9.1":
+  version "4.9.1"
+  resolved "https://registry.npmjs.org/@material-ui/icons/-/icons-4.9.1.tgz#fdeadf8cb3d89208945b33dbc50c7c616d0bd665"
+  integrity sha512-GBitL3oBWO0hzBhvA9KxqcowRUsA0qzwKkURyC8nppnC3fw54KPKZ+d4V1Eeg/UnDRSzDaI9nGCdel/eh9AQMg==
+  dependencies:
+    "@babel/runtime" "^7.4.4"
+
 "@material-ui/styles@^4.10.0":
   version "4.10.0"
   resolved "https://registry.npmjs.org/@material-ui/styles/-/styles-4.10.0.tgz#2406dc23aa358217aa8cc772e6237bd7f0544071"
@@ -9965,13 +9972,14 @@ react-error-overlay@^6.0.7:
   resolved "https://registry.npmjs.org/react-error-overlay/-/react-error-overlay-6.0.7.tgz#1dcfb459ab671d53f660a991513cb2f0a0553108"
   integrity sha512-TAv1KJFh3RhqxNvhzxj6LeT5NWklP6rDr2a0jaTfsZ5wSZWHOGeqQyejUp3xxLfPt2UpyJEcVQB/zyPcmonNFA==
 
-react-form-templete-design@^0.0.12:
-  version "0.0.12"
-  resolved "https://registry.npmjs.org/react-form-templete-design/-/react-form-templete-design-0.0.12.tgz#7c1a3e937ea0ac4e3b375a1f3742798ec9b61b9e"
-  integrity sha512-OBZFtrzA7fmsjfXJneKl42nNt2zomczBd1rulVIaSjY/jDbLXHBlCyWcSH8YvGXwG8SASaOpQwBB6Gf9XbLAiA==
+react-form-templete-design@^1.0.5:
+  version "1.0.5"
+  resolved "https://registry.npmjs.org/react-form-templete-design/-/react-form-templete-design-1.0.5.tgz#c96d6071f8010b553ae558387f72ab30c6d2ff81"
+  integrity sha512-0K4L5dUDDpUwkL2jI8QvTL9X4dOcFgZPP6l3NXyFDbSfHsV2BJWmFX/wFdpIAnR4ogZdIWTvFT4F+u7iCkDnDw==
   dependencies:
     "@kne/react-form-antd" "^0.1.32"
     "@material-ui/core" "^4.11.0"
+    "@material-ui/icons" "^4.9.1"
     moment "^2.27.0"
     react "^16.13.1"
     react-dom "^16.13.1"
