@@ -7,7 +7,10 @@ yarn add react-form-templete-design
 # 使用示例
 
 ```jsx
+import 'react-form-templete-design/dist/style.scss'
+
 import FormDesign,{FormRender} from 'react-form-templete-design'
+
 
 
 //编辑器  获取编辑完成json
@@ -17,7 +20,6 @@ import FormDesign,{FormRender} from 'react-form-templete-design'
 <FormRender
     submitText="确定"
     defaultData={{form_item:"render"}}
-    data={{}}
 />
 
 
@@ -41,4 +43,4 @@ import FormDesign,{FormRender} from 'react-form-templete-design'
 | data        | FormDesign handleSuccessEdit 返回值 | Object   |        |
 | onSubmit    | 表单提交                            | fundtion |        |
 
-#### 图片编辑功能待补充
+
